@@ -12,7 +12,7 @@ jobs:
     - name: Set up JDK 11
       uses: actions/setup-java@v2
       with:
-        java-versiun: '11'
+        java-versiun: '11.0.20'
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn -B -e verify
